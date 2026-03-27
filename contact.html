@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Contact Us | Joy in A Box</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Top Bar with Icons -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="user-actions">
+                <a href="#"><i class="far fa-user"></i></a>
+                <a href="#"><i class="far fa-heart"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header with Centered Logo -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo2.jpg" alt="Joy in A Box">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav class="main-nav">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="decor.html">Décor <i class="fas fa-chevron-down"></i></a>
+                    <ul class="submenu">
+                        <li><a href="decor.html#wall-art">Wall Art</a></li>
+                        <li><a href="decor.html#vases">Vases & Bowls</a></li>
+                        <li><a href="decor.html#candles">Candles & Scents</a></li>
+                        <li><a href="decor.html#mirrors">Mirrors</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="made-to-order.html">Made-to-Order <i class="fas fa-chevron-down"></i></a>
+                    <ul class="submenu">
+                        <li><a href="made-to-order.html#custom-furniture">Custom Furniture</a></li>
+                        <li><a href="made-to-order.html#personalized-textiles">Personalized Textiles</a></li>
+                        <li><a href="made-to-order.html#bespoke-lighting">Bespoke Lighting</a></li>
+                    </ul>
+                </li>
+                <li><a href="fluff-and-snuggles.html">Fluff & Snuggles</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you. Reach out with questions, feedback, or just to say hello</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Visit Us</h3>
+                            <p>123 Design Street<br>New York, NY 10001<br>United States</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Call Us</h3>
+                            <p>+1 (555) 123-4567<br>Mon-Fri, 9am-6pm EST</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email Us</h3>
+                            <p>hello@joyinabox.com<br>support@joyinabox.com</p>
+                        </div>
+                    </div>
+                    <div class="social-connect">
+                        <h3>Connect With Us</h3>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-tiktok"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <select id="inquiryType">
+                                <option value="">Select Inquiry Type</option>
+                                <option>General Inquiry</option>
+                                <option>Order Support</option>
+                                <option>Custom Order Request</option>
+                                <option>Partnership Opportunities</option>
+                                <option>Press & Media</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="6" placeholder="Your Message..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                    <div id="formSuccess" class="form-success" style="display: none;">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Thank you for your message! We'll get back to you within 24 hours.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How long does shipping take?</h3>
+                    <p>Standard shipping takes 3-5 business days. Made-to-order items require 2-4 weeks for crafting.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you ship internationally?</h3>
+                    <p>Yes, we ship worldwide. International shipping times vary by location.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is your return policy?</h3>
+                    <p>We offer 30-day returns on non-custom items. Made-to-order pieces are final sale.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I track my order?</h3>
+                    <p>Yes, tracking information is sent via email once your order ships.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343008!2d-73.98510768458426!3d40.75889697932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1647894567890!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Join Our Newsletter</h4>
+                    <p>Get 10% off your first order</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+                <!-- Contact -->
+                <div class="footer-col">
+                    <h4>Find Us</h4>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-phone"></i>(+266) 6918 3378</li>
+                        <li><i class="fas fa-envelope"></i> hello@joyinabox.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Maseru Mall </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+             
+            <div class="footer-bottom">
+                <p>&copy; 2026 Joy in A Box. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Buttons -->
+    <div class="floating-buttons">
+        <a href="#" class="scroll-top" id="scrollTop"><i class="fas fa-arrow-up"></i></a>
+        <a href="https://wa.me/15551234567" class="whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
+    <script src="js/main.js"></script>
+    
+    <!-- Contact Form JavaScript -->
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            
+            // Show success message
+            document.getElementById('formSuccess').style.display = 'block';
+            
+            // Clear form
+            this.reset();
+            
+            // Hide success message after 5 seconds
+            setTimeout(function() {
+                document.getElementById('formSuccess').style.display = 'none';
+            }, 5000);
+        });
+    </script>
+</body>
+</html>
